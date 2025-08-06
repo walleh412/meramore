@@ -1,58 +1,67 @@
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100 900;
+}
+
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  background: linear-gradient(to right, #8b5cf6, #facc15);
-  color: #1f2937;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #fef6ff, #fffde7);
+  color: #3d2c42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   text-align: center;
 }
 
+.container {
+  padding: 2rem;
+}
+
 .logo {
-  width: 180px;
-  margin: 30px auto;
+  max-width: 260px;
+  margin-bottom: 2rem;
 }
 
-h1 {
-  font-size: 2.4em;
-  margin-bottom: 0.2em;
+.headline {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-h2 {
-  font-weight: 300;
-  color: #374151;
-  margin-top: 0;
+.subheadline {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #6a4c93;
+  margin-bottom: 2rem;
 }
 
-.about h3 {
-  margin: 40px 20px;
-  font-size: 1.6em;
-}
-
-.contact a {
+.contact .btn {
   display: inline-block;
-  margin: 15px 20px;
-  padding: 12px 25px;
-  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
+  color: white;
+  background-color: #ff6f61;
+  border-radius: 30px;
   font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-.whatsapp {
-  background-color: #25d366;
-  color: white;
+.contact .btn.insta {
+  background-color: #8e44ad;
 }
 
-.instagram {
-  background-color: #e1306c;
-  color: white;
-}
-
-footer {
-  margin-top: 50px;
-  font-size: 0.9em;
-  color: #6b7280;
-}
-
-.error {
-  margin-top: 100px;
+.contact .btn:hover {
+  background-color: #e65c50;
 }
