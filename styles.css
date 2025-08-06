@@ -2,50 +2,57 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background: linear-gradient(to right, #a06ad8, #f8d94f);
-  color: #1e1e1e;
+  background: linear-gradient(to right, #8b5cf6, #facc15);
+  color: #1f2937;
   text-align: center;
-  padding: 2rem;
 }
 
-header .logo {
-  width: 150px;
-  margin: 0 auto 1rem;
+.logo {
+  width: 180px;
+  margin: 30px auto;
 }
 
 h1 {
-  font-size: 2rem;
-  color: #ffffff;
+  font-size: 2.4em;
+  margin-bottom: 0.2em;
 }
 
 h2 {
-  font-size: 1.2rem;
-  color: #ffffffcc;
+  font-weight: 300;
+  color: #374151;
+  margin-top: 0;
 }
 
-h3 {
-  margin-top: 2rem;
-  color: #4c0070;
+.about h3 {
+  margin: 40px 20px;
+  font-size: 1.6em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.contact a {
+  display: inline-block;
+  margin: 15px 20px;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-li {
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.instagram {
+  background-color: #e1306c;
+  color: white;
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #6b7280;
 }
 
-footer a {
-  display: block;
-  margin: 0.5rem 0;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
+.error {
+  margin-top: 100px;
 }
