@@ -5,9 +5,9 @@ body {
   background: linear-gradient(135deg, #fff9f3, #fbeeff);
   color: #3d2c42;
   min-height: 100vh;
+  text-align: center;
   padding: 2rem 1rem;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .container {
@@ -68,7 +68,7 @@ body {
   background: linear-gradient(135deg, #fff9f3, #fbeeff);
   color: #3d2c42;
   min-height: 100vh;
+  text-align: center;
   padding: 2rem 1rem;
   box-sizing: border-box;
-  text-align: center;
 }
