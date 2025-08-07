@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
 <meta charset="utf-8"/>
@@ -16,28 +15,26 @@
       background-size: 400% 400%;
       animation: gradientBG 18s ease infinite;
       color: #fff;
-      height: 100vh;
-      overflow: hidden;
+      min-height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
       display: flex;
-      align-items: center;
-      justify-content: center;
       flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
       text-align: center;
       padding: 1rem;
     }
-
     .logo {
       max-width: 220px;
       animation: pulse 4s infinite;
       margin-bottom: 1rem;
     }
-
     h1 {
       font-size: 3rem;
       letter-spacing: 2px;
       animation: fadeInUp 2s ease-out;
     }
-
     .lema {
       font-size: 1.4rem;
       margin-top: 1rem;
@@ -46,7 +43,6 @@
       color: #ffe;
       font-style: italic;
     }
-
     .promo {
       margin-top: 0.8rem;
       font-size: 1.1rem;
@@ -54,11 +50,9 @@
       animation: fadeInUp 3.5s ease-out;
       letter-spacing: 0.5px;
     }
-
     .contact {
       margin-top: 2rem;
     }
-
     .btn {
       display: inline-flex;
       align-items: center;
@@ -75,35 +69,29 @@
       text-decoration: none;
       transition: background 0.3s ease;
     }
-
     .btn:hover {
       background: #f8d90f;
       color: #2a0845;
     }
-
     .btn img {
       height: 22px;
       width: 22px;
       filter: brightness(0) invert(1);
     }
-
     @keyframes gradientBG {
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}
     }
-
     @keyframes fadeInUp {
       0% {opacity: 0; transform: translateY(40px);}
       100% {opacity: 1; transform: translateY(0);}
     }
-
     @keyframes pulse {
       0% {transform: scale(1);}
       50% {transform: scale(1.04);}
       100% {transform: scale(1);}
     }
-
     @media screen and (max-width: 600px) {
       h1 { font-size: 2.2rem; }
       .lema, .promo { font-size: 1rem; padding: 0 1rem; }
@@ -127,31 +115,26 @@
 </svg> <span>Síguenos</span>
 </a>
 </div>
+
 <section class="coming-soon">
-<div class="preview-box">
-<p class="etiqueta">Snacks naturales disponibles</p>
-<h2>Snacks saludables</h2>
-<p class="descripcion">Deshidratados, naturales y hechos con amor.&lt;br /&gt;El mejor regalo para quienes más amas.</p>
+  <div class="preview-box">
+    <p class="etiqueta">Snacks naturales disponibles</p>
+    <h2>Snacks saludables</h2>
+    <p class="descripcion">Deshidratados, naturales y hechos con amor. Una forma de nutrir el vínculo que más valoras.</p>
+  </div>
+
 <div class="placeholder-imagen"></div>
 </div>
 </section>
+
 <section class="historia">
-<p>
-    En Meramore creemos que el amor se demuestra en los pequeños gestos.
-  </p>
-<p>
-    Por eso creamos una forma de alimentar desde el cuidado, la conexión y la presencia.
-  </p>
-<p>
-    Compartimos la vida con compañeros que nos miran a los ojos y nos entienden sin palabras. Seres que sienten lo que sentimos, que celebran con nosotros y también nos acompañan en silencio.
-  </p>
-<p>
-    Alimentarlos de manera natural y consciente es una forma de agradecerles, de cuidarlos como ellos lo hacen con nosotros.
-  </p>
-<p>
-    Meramore nace de ese vínculo silencioso, profundo y lleno de amor.  
-    Para que cada día compartido sea también una forma de decir: estoy aquí, contigo.
-  </p>
+  <p>En Meramore creemos que el amor no se dice: se demuestra.</p>
+  <p>Por eso creamos una forma de alimentar desde el cuidado, la conexión y la presencia.</p>
+  <p>Compartimos la vida con seres que nos entienden sin palabras. Que celebran con nosotros y también nos acompañan en silencio.</p>
+  <p>Alimentarlos de manera natural y consciente es una forma de agradecerles. De cuidarlos como ellos lo hacen con nosotros.</p>
+  <p>Meramore nace de ese vínculo silencioso, profundo y lleno de amor. Para que cada día compartido sea también una forma de decir: estoy aquí, contigo.</p>
 </section>
-<section style="height: 200vh; background: transparent;">Scroll test area</section></body>
+
+
+</body>
 </html>
