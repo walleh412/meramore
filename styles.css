@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(135deg, #fef6ff, #fffde7);
+  background: linear-gradient(135deg, #fff9f3, #fbeeff);
   color: #3d2c42;
   display: flex;
   align-items: center;
@@ -33,30 +33,31 @@ body {
   margin-bottom: 2rem;
 }
 
-.contact .btn {
-  display: inline-block;
-  margin: 0.5rem;
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  color: white;
-  background-color: #ff6f61;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.contact .btn.insta {
-  background-color: #8e44ad;
-}
-
-.contact .btn:hover {
-  background-color: #e65c50;
-}
-
 .description {
   max-width: 600px;
   margin: 0 auto 2rem;
   font-size: 1rem;
   color: #4a3a59;
   line-height: 1.6;
+}
+
+.contact .btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #6a4c93; /* Morado del logo */
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact .btn.insta {
+  background-color: #f1c40f; /* Amarillo vibrante */
+  color: #3d2c42;
+}
+
+.contact .btn:hover {
+  opacity: 0.9;
 }
