@@ -2,8 +2,12 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(135deg, #7e3cfd, #803ef8, #8241f3, #8544ed, #8847e9);
-  color: #3d2c42;
+  
+  background: linear-gradient(-45deg, #7e3cfd, #803ef8, #8544ed, #f8d90f);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +33,7 @@ body {
 .subheadline {
   font-size: 1.4rem;
   font-style: italic;
-  color: #6a4c93;
+  color: #f8d90f;
   margin-bottom: 2rem;
 }
 
@@ -37,7 +41,7 @@ body {
   max-width: 600px;
   margin: 0 auto 2rem;
   font-size: 1rem;
-  color: #4a3a59;
+  color: #f0e7ff;
   line-height: 1.6;
 }
 
@@ -47,7 +51,7 @@ body {
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   color: white;
-  background-color: #6a4c93; /* Morado del logo */
+  background-color: #f8d90f; /* Morado del logo */
   border-radius: 30px;
   font-weight: bold;
   transition: background 0.3s ease;
@@ -55,9 +59,15 @@ body {
 
 .contact .btn.insta {
   background-color: #f1c40f; /* Amarillo vibrante */
-  color: #3d2c42;
+  color: #ffffff;
 }
 
 .contact .btn:hover {
   opacity: 0.9;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
