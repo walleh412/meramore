@@ -61,3 +61,11 @@ body {
 .contact .btn:hover {
   opacity: 0.9;
 }
+
+
+html, body {
+  height: auto;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
