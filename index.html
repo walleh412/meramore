@@ -22,6 +22,7 @@
       justify-content: center;
       flex-direction: column;
       text-align: center;
+      padding: 1rem;
     }
 
     .logo {
@@ -63,23 +64,26 @@
       gap: 0.5rem;
       margin: 0.5rem;
       padding: 0.8rem 1.5rem;
-      text-decoration: none;
-      color: #000;
-      background-color: #f8d90f;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: #fff;
+      backdrop-filter: blur(8px);
       border-radius: 30px;
       font-weight: bold;
       font-size: 1rem;
+      text-decoration: none;
       transition: background 0.3s ease;
     }
 
     .btn:hover {
-      background-color: #fff;
-      color: #512b81;
+      background: #f8d90f;
+      color: #2a0845;
     }
 
     .btn img {
-      height: 20px;
-      width: 20px;
+      height: 22px;
+      width: 22px;
+      filter: brightness(0) invert(1);
     }
 
     @keyframes gradientBG {
@@ -100,17 +104,8 @@
     }
 
     @media screen and (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-      .lema {
-        font-size: 1.1rem;
-        padding: 0 1rem;
-      }
-      .promo {
-        font-size: 1rem;
-        padding: 0 1rem;
-      }
+      h1 { font-size: 2.2rem; }
+      .lema, .promo { font-size: 1rem; padding: 0 1rem; }
     }
   </style>
 </head>
@@ -121,10 +116,10 @@
   <p class="promo">Muy pronto: alimentación BARF saludable y natural.</p>
   <div class="contact">
     <a class="btn" href="https://wa.me/51933131132" target="_blank">
-      <img src="img/whatsapp.svg" alt="WhatsApp"> WhatsApp
+      <img src="img/whatsapp-outline.svg" alt="WhatsApp"> <span>Escríbenos</span>
     </a>
     <a class="btn" href="https://www.instagram.com/meramore.pe" target="_blank">
-      <img src="img/instagram.svg" alt="Instagram"> Instagram
+      <img src="img/instagram-outline.svg" alt="Instagram"> <span>Síguenos</span>
     </a>
   </div>
 </body>
