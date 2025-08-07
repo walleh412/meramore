@@ -1,85 +1,74 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-html, body {
+body {
   margin: 0;
-  padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to bottom right, #7e3ff2, #f9c449);
-  color: white;
-  overflow-y: auto !important;
-  height: auto !important;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior: contain;
+  background: linear-gradient(135deg, #fff9f3, #fbeeff);
+  color: #3d2c42;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 
 .container {
-  text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 .logo {
-  max-width: 140px;
-  margin-bottom: 1rem;
+  max-width: 260px;
+  margin-bottom: 2rem;
 }
 
-h1 {
+.headline {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.sub {
-  font-style: italic;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.barf {
-  color: #f9c449;
-  font-weight: bold;
+.subheadline {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #6a4c93;
   margin-bottom: 2rem;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
+.description {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #4a3a59;
+  line-height: 1.6;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 2rem;
-  padding: 0.75rem 1.5rem;
+.contact .btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
   color: white;
-  font-weight: 600;
-  transition: background 0.3s;
+  background-color: #6a4c93; /* Morado del logo */
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-.btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+.contact .btn.insta {
+  background-color: #f1c40f; /* Amarillo vibrante */
+  color: #3d2c42;
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
+.contact .btn:hover {
+  opacity: 0.9;
 }
 
-.snacks, .historia {
-  max-width: 600px;
-  margin: 0 auto 2rem auto;
-}
 
-.snacks h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.tag {
-  color: #e0e0e0;
-  margin-bottom: 0.5rem;
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #fff9f3, #fbeeff);
+  color: #3d2c42;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
