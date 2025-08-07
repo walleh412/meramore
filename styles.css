@@ -52,3 +52,11 @@ body {
 .contact .btn:hover {
   background-color: #e65c50;
 }
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #4a3a59;
+  line-height: 1.6;
+}
